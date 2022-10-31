@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/background_1024.png");
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: repeat;
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.welcome-section{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    background-color: blueviolet;
+    margin: 50px 100px;
+    border-radius: 10px;
+    border: solid 8px;
+}
+header{
+    background-color: blueviolet;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    background-color: blueviolet;
+    height: 75px;
+    gap: 10px;
+}
+.cards-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 50px 100px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 100px;
+    background-color: gray; 
+    gap: 18px;
+    justify-content: center;
+
+}
+.card{
+    width: 150px;
+    height: 250px;
+    flex: 0 1 auto;
+    background-color: aqua;
+}
